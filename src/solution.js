@@ -10,13 +10,3 @@ function findStudentScoreByName(students, name) {
 }
 
 module.exports = findStudentScoreByName;
-
-const students = [
-  { name: "Leo Yeon-Joo", score: 8.9 },
-  { name: "Morgan Sutton", score: 7.4 },
-  { name: "Natalee Vargas", score: 9.2 },
-];
-
-findStudentScoreByName(students, "Natalee Vargas");
-
-console.log(findStudentScoreByName(students, "Natalee Vargas"));
